@@ -1,0 +1,30 @@
+.pad{
+  width:100%;
+  margin: 0;
+  display: flex;
+}
+.pad__info{
+  display: absolute;
+  width: 80%;
+  background-color: white;
+  height: 80%;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px 10px rgb(87, 74, 74);
+  border-radius: 5px;
+
+}
+.pad__info h2{
+  text-align: center;
+}
+.pad__info h3{
+  text-align: center;
+}
+.pad__info p{
+  padding: 3em;
+  
+}
+.pad__info img{
+  width: 60%;
+
+  margin:0px 20%;
+}

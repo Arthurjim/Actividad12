@@ -1,0 +1,84 @@
+.Registos{
+  width:100%;
+  height: 500px;
+  display: flex;
+
+}
+ .tablaAlumnos{
+  width: 70%;
+}
+
+ table  {
+   margin: 25px auto;
+  width: 90%;
+  justify-items: center;
+  text-align: center;
+  border-radius: 1em;
+ 
+}
+ table tr{
+  margin-top: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+
+ table th{
+  margin-top: 20px;
+  border: 1px solid black;
+  height: 30px;
+  font-size: 20px;
+  background-color: rgb(16, 18, 182);
+
+  border-radius: 1px;
+  color: rgb(226, 226, 226);
+}
+ table td{
+  margin-top: 20px;
+  border-radius: 5px;
+  height: 28px;
+  width: 15%;
+  background-color: #464646bd;
+}
+table td button{
+  background-color: rgb(9, 11, 148);
+  color: rgb(150, 150, 150);
+
+
+  border: none;
+  width: 50%;
+  height: 90%;
+  border-radius: 5px;
+}
+table td button:hover{
+  border:2px solid rgb(2, 2, 2);
+}
+.Formulario{
+  height: 80%;
+  width: 30%;
+  text-align: center;
+}
+.Formulario form{
+  
+  width: 90%;
+  height: 80%;
+  margin:auto;
+  background-color: rgba(36, 174, 192, 0.76);
+}
+.Formulario form p{
+  font-size: 18px;
+}
+.Formulario form input{
+  width: 70%;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgb(209, 209, 209);
+}
+.Formulario form button{
+  margin-top: 10px;
+  width: 60%;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgb(12, 16, 250);
+  font-size: 16px;
+ font-family: cursive;
+}

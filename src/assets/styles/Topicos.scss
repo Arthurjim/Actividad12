@@ -1,0 +1,36 @@
+.tecnologias{
+  width:100%;
+ 
+  margin: 0;
+  display: flex;
+}
+.tecnologias__info{
+  display: absolute;
+  width: 80%;
+  background-color: white;
+  height: 80%;
+  margin: 25px auto;
+  box-shadow: 10px 10px 10px 10px rgb(87, 74, 74);
+  border-radius: 5px;
+
+}
+.tecnologias__info h2{
+  text-align: center;
+}
+.tecnologias__info h3{
+  text-align: center;
+  margin: 10px;
+}
+.tecnologias__info p{
+  padding: 1em 4em;
+  
+}
+.tecnologias__info img{
+  width: 60%;
+
+  margin:0px 20%;
+}
+.tecnologias__info ul{
+  text-align: center;
+  list-style: none;
+}

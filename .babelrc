@@ -1,0 +1,13 @@
+{
+  "presets": [//aqui pasamos los nombres de los presets(preajustes) instalados
+   [ "@babel/preset-env",
+    {
+      "targets": {
+        "esmodules": true
+      }
+    }
+    ],
+    "@babel/preset-react"
+ 
+  ]
+}
